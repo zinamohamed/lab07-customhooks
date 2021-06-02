@@ -11,7 +11,7 @@ const CharacterList = ({ characters, loading }) => {
           ?
           <h2>Loading...</h2>
           :
-          <ul  aria-label="characters">
+          <ul aria-label="arnold-characters">
             {characters.map(character => 
               (<li key={character.id}>
                 <Character 
